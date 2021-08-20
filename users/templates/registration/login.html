@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_content %}
+<div class="container" align="center">
+  <br><br><br>
+  <h1>Login</h1>
+
+  <form method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <input type="submit" value="Login">
+  </form>
+
+  <a href="{% url 'hello_world' %}">Back to hello_world</a>
+</div>
+{% endblock %}

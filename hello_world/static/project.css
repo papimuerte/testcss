@@ -1,0 +1,113 @@
+@charset "UTF-8"
+
+body {margin:0;}
+
+h1{color:orange;
+  font-weight:700;}
+
+h2{color:#70AD47;
+  font-weight:bold;}
+
+h5{color:green;
+    font-weight:bold;}
+
+
+#morse{
+  text-align: inherit;
+  color:gold;
+}
+#morse2{
+  text-align: inherit;
+  color:gold;
+  font-weight:100;
+}
+
+footer {width: 100%;
+  background-color: white;
+  font-size: 10px;
+  color:  #C3DEB0;
+  padding: 10px;
+  text-align:justify;;}
+
+.icon-bar {position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);}
+
+.icon-bar a {display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 30px;}
+
+.icon-bar a:hover {
+    background-color: lightgreen;
+  }
+
+.iconbar {
+    background: green;
+    color: white;
+  }
+
+.content {
+    margin-left: 75px;
+    font-size: 30px;
+  }
+
+#rsslink a:link{color: green;font-size: 12px;}
+#rsslink a:visited{color: lightgreen;font-size: 12px;}
+
+#footerlink a:link{color: white;font-size: 14px;}
+#footerlink a:hover{color: lightgreen;font-size:14px;}
+#footerlink a:visited{color: white;font-size: 14px;}
+
+.navbar-custom {background-color: green;}
+.navbar-custom .navbar-brand,.navbar-custom .navbar-text {color: white;}
+.navbar-custom .navbar-nav .nav-link {color: yellow;}
+.navbar-custom .navbar-nav .nav-item {color: yellow;}
+.navbar-custom .nav-item.active .nav-link,.navbar-custom .nav-item:focus .nav-link,.navbar-custom .nav-item:hover .nav-link {color: yellow;}
+.navbar-nav > li >a{color:blue;}
+
+#timestamp {font-size: 12px;
+  color: green;
+  font-weight: normal;}
+
+#source {font-size: 16px;
+  font-weight: bold;
+  color: black;
+  background-color: white;}
+
+#menu_item {color: green;
+  font-size: 196px;}
+
+#favorite_item {color: green;
+    font-size: 25px;}
+
+#favorite_text {color: green;
+        font-size: 15px;}
+
+#menu_item2 {color: green;
+  font-size: 65px;}
+
+#favorite{color: gold;
+  font-size: 25px;
+  float: right;
+  margin-top: 5px;
+  font-weight: 800;}
+
+#toolbar_item {color: white;
+  font-size: 32px;}
+
+#login_item {color: green;
+  font-size: 32px;font-weight: 800;}
+
+#login_button {color: green;
+  font-size: 32px;
+  font-weight: 700;}
+
+.btn-css {width:120px;
+    height: auto;
+    font-weight: 700;
+    margin-left: 10px;}
